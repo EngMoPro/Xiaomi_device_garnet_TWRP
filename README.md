@@ -1,4 +1,4 @@
-# Android device tree for Xiaomi xiaomi for arm64 (garnet)
+# Android device tree for Xiaomi note 13 pro (garnet)
 
 ```
 #
