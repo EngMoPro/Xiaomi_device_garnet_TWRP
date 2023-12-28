@@ -10,19 +10,21 @@ DEVICE_PATH := device/xiaomi/garnet
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
-# A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
-    system \
-    system \
-    system_ext \
-    system_ext \
-    product \
-    product \
-    vendor \
-    vendor \
+    boot \
+    dtbo \
+    vbmeta \
+    vbmeta_system \
     odm \
-    odm
+    product \
+    system \
+    system_ext \
+    system_dlkm \
+    vendor \
+    vendor_boot \
+    vendor_dlkm
+    
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture
